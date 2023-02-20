@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+
+main{
+    display:flex;
+    min-height: 100vh;
+    justify-content:center;
+    align-items: stretch;
+}
+.logo{
+    padding:80px;
+    padding-bottom: 1px;
+}
+.content{
+    padding-top:0px;
+    align-items: center;
+}
+ h1{    font-size:3rem;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-family:sans-serif;
+}
+h2{
+    font-size:2rem;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-family:sans-serif;
+}
+.benefits{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size:1.5rem;
+    font-family: sans-serif;
+    padding-top:0px;
+}
+hr{
+    margin:70px;
+    border:1px solid green;
+}
+.left {
+    text-align:center;
+    align-items:center;
+    justify-content: center;
+    width: 55rem;
+    background-color: rgb(35, 142, 76);    
+}
+.right{
+    text-align:center;
+    align-items:center;
+    background-color: white;
+    width:29.2rem;
+}
+.right_logo{
+    padding-top:60px; 
+    padding-bottom:20px;  
+}
+.sign-in{
+    font-size:2rem;
+}
+.login-form{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    box-sizing: border-box;
+    background-color: white;   
+}
+
+.btn img{
+    display: flex;
+    width:30px;
+    align-items:center;
+    justify-content: space-between;
+
+}
+input{
+    width:80%;
+    border-top:hidden;
+    border-right:hidden;
+    border-left:hidden;
+}
+.input-email:focus{
+    outline:none;
+}
+
+.btn{
+    background-color: white;
+    border:1px solid grey;
+    padding:.7rem 2rem;
+    font-family:calibri;
+    align-items:center;
+    justify-content: space-between;
+    min-width:5%;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.btn:hover{
+    color:white;
+    border:1px solid greenyellow;
+}
+#next{
+    font-size:1rem;
+    color:white;
+    background-color:rgb(10, 133, 86);
+    width:80%;
+    text-align:center;
+    align-items:center;
+    justify-content: center;
+    margin-left: 8px;
+}
+.helper .link1{
+ font-size: 1rem;
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#create{
+    border:1px solid rgb(5, 189, 20);
+    padding:.7rem 2rem;
+    padding-top:15px;
+    background-color: white;
+    width:80%;
+    font-size:1rem;
+    justify-content: center;
+
+}
+
+.cont-wit{padding-top:15px;
+    font-size:1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
