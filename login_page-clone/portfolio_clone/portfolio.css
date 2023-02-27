@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    min-height: 100vh;
+    background-color:whitesmoke;
+}
+header{
+    background-color: white;
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 3px grey;
+    padding:1.5rem 2rem;
+    padding-left:18rem;
+}
+.nav_bar{
+    text-decoration: underline;
+    padding:1rem 4rem;
+    justify-content:space-between;
+}
+.h, .ab, .nl{
+    color:red;
+    padding:.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.ar{
+    color:rgb(0, 140, 255);
+    padding:.5rem;
+    font-weight:bold;
+}
+.ar_link, .y_link, .p_link{
+    color:white;
+    text-decoration: none;
+}
+.c_link{
+    color:rgb(0, 140, 255);
+    text-decoration: none;
+}
+.cs{
+    color:rgb(0, 128, 38);
+    padding:.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.rs{
+    color:blueviolet;
+    padding:.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.container{
+    background-color: white;;
+    padding-bottom:2rem;
+    padding-left:10rem;
+    padding-right:10rem;
+    padding-top: 4rem;
+
+}
+section{
+    display: block;
+}
+.kevin_img{
+    display:flex;
+}
+.title{
+    border-radius: 2rem;
+    font-size:3rem;
+    background-color: rgb(255, 38, 0);
+    color:white;
+    text-align:center;
+    justify-content: center;
+    display:flex;
+    font-family: sans-serif;
+    padding-bottom:.5rem;
+}
+.kp, .kp2{
+
+    padding:.5rem;
+    font-size:1.5rem;
+}
+.youtube{
+    background-color: rgb(255, 192, 192);
+    padding-bottom:6rem;
+    justify-content: center;;
+    align-items:center;
+    padding-left:4rem;
+}
+#yt_title{
+    color:rgb(187, 64, 115);
+    padding-top:2rem;
+    padding-left: 6rem;
+    font-size:3rem;
+    font-family:monospace;
+    text-align: left;
+    font-weight: bold;
+}
+#sb, #a_sb,#c_sb, #p_sb{
+    text-align:left;
+    padding-left:4.8rem;
+    padding-bottom: 1rem;
+    font-family: sans-serif;
+    font-size:1rem;
+    color:grey;
+}
+.p2, .p3, .p3_sb, .p5{
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-family: sans-serif;
+    font-size:1.3rem;
+    text-align:left;
+    padding-right:20rem;
+    padding-left:6rem;
+}
+.articles{
+    background-color: white;
+    justify-content: center;
+    align-items:center;
+    padding-bottom:6rem;
+    padding-left:4rem;
+
+}
+#at{
+    color:rgb(0, 26, 255);
+    padding-top:2em;
+    padding-left:6rem;
+    font-size:3rem;
+    font-family:sans-serif;
+    text-align:left;
+    font-weight: bold;    
+}
+.courses{
+    background-color:rgb(0, 140, 255);
+    justify-content: center;
+    align-items:center;
+    padding-bottom:6rem;
+    padding-left:4rem;
+}
+#cr{
+    color:white;
+    padding-top:2em;
+    padding-left:6rem;
+    font-size:3rem;
+    font-family:sans-serif;
+    text-align:left;
+    font-weight: bold; 
+
+}
+ .p4, .p4_sb, .p4_sb2{
+    color:white;
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-family: sans-serif;
+    font-size:1.3rem;
+    text-align:left;
+    padding-right:20rem;
+    padding-left:6rem;
+ }
+ #c_sb{
+    color:white;
+ }
+ .patreon{
+    background-color:white;
+    justify-content: center;
+    align-items:center;
+    padding-bottom:8rem;
+    padding-left:4rem;
+ }
+ #pn{
+    color:rgb(255, 0, 43);
+    padding-top:2em;
+    padding-left:6rem;
+    font-size:3rem;
+    font-family:sans-serif;
+    text-align:left;
+    font-weight: bold; 
+ }
+ .btn{
+    color:white;
+    border:1px ;
+    text-decoration: none;
+    padding:.5rem 1rem;
+    font-family:calibri;
+    display:flex;
+    text-align:left;
+    align-items:center;
+    justify-content: center;
+    min-width:20%;
+    border-radius: 5rem;
+    font-size:1.3rem;
+    font-weight: bold;
+    text-shadow: none;
+ }
+ .btn:hover{
+    color:white;
+    background-color: blue;
+    border:1px solid blue
+
+ }
+ #yt_btn{
+    background-color:rgb(187, 64, 115);
+ }
+ .y,.p,.c,.a{
+    padding-left:3.9rem;
+ }
+ #ar_btn{
+    color:white;
+      background-color:rgb(0, 26, 255);
+ }
+ #cr_btn{
+    color:blue;
+    background-color:white;
+ }
+ #pt_btn{
+    color:white;
+    background-color:rgb(255, 0, 43);
+ }
+
+ footer{
+    padding-top:2rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+ }
+ .last{
+    color:grey;
+    font-size:1rem;
+    padding-bottom:2rem;
+ }
+ .end_bar{
+    padding-top:.5rem;
+    text-align:center;
+    padding-bottom:3rem;
+ }

@@ -12,3 +12,10 @@ changeMessage = (e) =>{
     e.target.innerText='button clicked'
     
 }
+let btnul=document.querySelector('#btn-uplink')
+let alllinks=document.querySelectorAll('a')
+btnul.addEventListener('click', (e)=>{
+    alllinks.forEach((link,i)=>{
+        link.textContent = `Link ${i}`
+    })
+})

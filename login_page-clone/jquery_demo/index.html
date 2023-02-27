@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery demo</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        .box{
+            height:10rem;
+            background-image: linear-gradient(rgb(0, 225, 255),rgb(88, 0, 139));
+            display: grid;
+            place-content: center;
+            color:white;
+            position: relative;
+        
+        }
+        button.intput{
+            padding:.5rem 1rem;
+            border-radius: .5rem;
+            border:none;
+        }
+        input{
+            outline:none;
+        }
+        #btn_cls{
+            
+            cursor:pointer;
+            border-radius: .5rem;
+            background:white;
+            border: 1px solid black;
+            width:2rem;
+            height:2rem;
+            color:red;
+            font-size:1rem;
+            position:absolute;
+            inset:auto 1rem -1rem auto;
+        }
+        #btn_form{
+            cursor:pointer;
+            border-radius: 100;
+            background:white;
+            width:2rem;
+            height:2rem;
+            color:red;
+            font-size:1rem;;
+            position:absolute;
+            inset:auto 1rem auto auto;
+        }
+        .modal{
+            position: fixed;
+            inset:50% auto auto 50%;
+            transform:translate(-50%, -50%);
+            background:white;
+            border-radius: .5rem;
+            display: none;
+        }
+        .modal form{
+            box-sizing: border-box;
+            display: grid;
+            padding: 5rem;
+            gap:1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2> welcome to wakanda</h2>
+        <button class="show_login">login</button>
+        <button id="btn_cls">&cross;</button>
+        </div>
+        <div class="modal">
+
+            <form ><button id="btn_form">&cross;</button><input type="text" placeholder="Email"><input type="text" placeholder="Password"><button>Login</button></form>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous">
+            
+        </script>
+        <script>
+            $(function () {
+                $('#btn_cls').click(() => {
+                    $('.box').slideUp(500)
+                })
+                $('.show_login').click(() =>{
+                    $('.modal').slideToggle(300)
+                })
+                $('#btn_form').click((e) =>{
+                    e.preventDefault()
+                    $('.modal').slideUp(300)
+                })
+            });
+            
+        </script>
+        
+
+</body>
+</html>
